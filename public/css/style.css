@@ -1,0 +1,420 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.header
+{
+    font: weight 0;
+    display: block;
+    color: rgb(255,255,255);
+    font-weight: 900;
+    line-height: 1.2em;
+    font-size: 3rem;
+    font-family: 'Open Sans',sans-serif !important;
+    text-align: center;
+}
+.summary
+{
+    padding-bottom: 3em;
+    color: rgb(255,255,255);
+    padding-top: 1em;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+.background
+{
+    position: relative;
+    padding-bottom: 50px;
+    background-size: 1200px;
+    background-image: url("/Images/Background.png");
+    background-repeat: no-repeat;
+    background-color: rgb(204,148,51);
+    border-radius: 4px;
+    
+}
+.jss136 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.jss1 
+{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+    max-width: 90%;
+}
+.jss61 
+{
+    box-shadow: none;
+}
+.jss60 
+{
+    border-radius: 4px;
+}
+.jss59
+{
+    background-color: transparent;
+}
+
+.jss212 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.jss198 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.jss190 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.jss176 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.jss137 
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss58 
+{
+    width: 100%;
+    padding-bottom: 1em;
+}
+.jss269 
+{
+    margin: 0;
+    border: 0;
+    display: inline-flex;
+    padding: 0;
+    padding-bottom: 0px;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+}
+.jss276 {
+    padding-left: 14px;
+}
+.jss273 {
+    position: relative;
+}
+.jss286 {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    font-size: 1rem;
+    font-family: Open Sans,sans-serif;
+    line-height: 1.1875em;
+    align-items: center;
+}
+.jss273 .jss280 
+{
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.jss303 
+{
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    position: absolute;
+    transition: padding-left 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,border-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,border-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    pointer-events: none;
+}
+.jss304
+{
+    padding: 0;
+    text-align: left;
+    transition: width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    line-height: 11px;
+}
+
+.jss307 
+{
+    margin-right: 8px;
+}
+.jss305 
+{
+    height: 0.01em;
+    display: flex;
+    max-height: 2em;
+    align-items: center;
+}
+.jss310 {
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    font-size: 24px;
+    user-select: none;
+    flex-shrink: 0;
+}
+.material-icons 
+{
+    color: rgb(204, 148, 51);
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.jss284 {
+    padding-left: 0;
+}
+.jss281
+{
+    padding: 18.5px 14px;
+        padding-left: 14px;
+}
+.jss296
+{
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 6px 0 7px;
+    display: block;
+    min-width: 0;
+    box-sizing: content-box;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.jss319
+{
+    width: 100%;
+    position: relative;
+}
+.jss321
+{
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+    white-space: pre-wrap;
+}
+.jss320 
+{
+    font: inherit;
+        line-height: inherit;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    cursor: inherit;
+    border: none;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    line-height: inherit;
+}
+.jss28 {
+    color: rgb(255,255,255);
+    z-index: 1100;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color: rgb(000,000,000);
+}
+.jss242 {
+    padding: 6px 8px;
+        padding-right: 8px;
+        padding-left: 8px;
+    text-transform: capitalize;
+}
+.jss240 {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.75;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.jss266 {
+    color: inherit;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    outline: none;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    justify-content: center;
+    -moz-appearance: none;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.jss241
+{
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.jss335
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+}
+.jss322 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+    max-width: 90%;
+}
+.jss61 {
+    box-shadow: none;
+}
+.jss63 {
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+.jss60 {
+    border-radius: 4px;
+}
+.jss59 {
+    background-color: transparent;
+}
+
+.jss209 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.jss195 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.jss190 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.jss176 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.jss137 {
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss112 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 6rem;
+    font-family: Open Sans,sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+.jss100 {
+    margin: 0;
+    display: block;
+}
+.jss323 img {
+    padding: 2.5rem 0;
+    max-height: 60px;
+}
+.jss323 {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 0;
+}
+.jss112 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 6rem;
+    font-family: Open Sans,sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+.jss208 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+}
+.jss324 {
+    width: 80%;
+    font-size: 18px;
+    padding-top: 3em;
+    font-weight: 900;
+    border-bottom: 5px solid rgb(204,148,51);
+    padding-bottom: 1em;
+}
+.jss108 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.875rem;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.jss325 {
+    font-size: 16px;
+    padding-top: 1em;
+    font-family: Open Sans,sans-serif;
+}
+.jss235 {
+    text-decoration: none;
+}
+.jss135 {
+    display: inline;
+}
+.jss129 {
+    color: inherit;
+}
+
+a {
+    color: #cc9433 !important;
+}
+a, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans',sans-serif !important;
+}
+.footer
+{
+    background-color: aqua;
+}
