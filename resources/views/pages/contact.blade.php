@@ -132,7 +132,7 @@ info@rr-solutions.us</a>
 <a target="_blank" href="https://www.google.com/maps/place/601+1st+Ave+NW,+Gravette,+AR+72736/@36.4261087,-94.4562589,17z/data=!3m1!4b1!4m5!3m4!1s0x87c9a96ed2c4bb7d:0xf3e1f5907eec67ca!8m2!3d36.4261087!4d-94.4540702" style="text-decoration: none; color: black;">
 <p class="jss100 jss108 jss325">R&R Solutions</p>
 <p class="jss100 jss108 jss325">601 1st. Ave. NW</p>
-<p class="jss100 jss108 jss325">Gravette, AR xxxxxx</p>
+<p class="jss100 jss108 jss325">Gravette, xx xxxxxx</p>
 </a>
 </div>
 
