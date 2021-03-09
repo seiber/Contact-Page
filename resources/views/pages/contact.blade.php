@@ -11,7 +11,7 @@
         <div class="jss137 jss176 jss190 jss198 jss212"></div>
         
         <div class="jss137 jss176 jss190 jss198 jss212">
-    <form class ="jss57" action="contact.php">
+    <form class ="jss57" action="contact" method="POST">
         <div class="jss269 jss58">
                 <div class="jss286 jss273 jss287 jss290 jss276">
                     <fieldset class = "jss303 jss280" aria-hidden="true" style="padding-left: 8px;"> 
@@ -23,7 +23,7 @@
                 <span class="material-icons jss310" aria-hidden="true" style="color:  #cc9433 ;">person</span>
             </div>
             <input aria-invalid="false" class="jss296 jss281 jss301 jss284" name="name" 
-            placeholder="Your name" type="text" value="">
+            placeholder="Your name" type="text"autocomplete="name" value="">
             </div>
         </div>
 
@@ -52,7 +52,7 @@
         <div class="jss305 jss307">
         <span class="material-icons jss310" aria-hidden="true" style="color:  #cc9433 ;">email</span>
     </div>
-    <input aria-invalid="false" class="jss296 jss281 jss301 jss284" name="name" autocomplete="email"
+    <input aria-invalid="false" class="jss296 jss281 jss301 jss284" name="email" autocomplete="email"
     placeholder="Email address" type="email" value="">
 
     </div>
@@ -80,6 +80,11 @@ here..."></textarea>
         </div>
     </div>
 </div>
+@if(session()->has('message'))
+<div class= "alert alert-primary" role ="alert">
+    <strong>Success!</strong> {{session()->get('message')}}
+</div>
+@endif
 <div class="demo-button">
     <button class="jss266 jss240 jss242 jss245 jss28" tabindex="0" type="submit" >
 
@@ -91,6 +96,7 @@ here..."></textarea>
 </div>
 <span class="jss335"></span>
     
+@csrf
 </form>
      
 <div class="jss59 jss63 jss60">
@@ -98,9 +104,10 @@ here..."></textarea>
 <div class="jss136">
 <div class="jss137 jss176 jss190 jss195 jss209">
 <h1 class="jss100 jss112 jss323">
-<div class="logo">
-<img src="/Images/Logo.png" alt="logo">
-</div>
+
+
+
+
 </h1>
 </div>
 <div class="links">
@@ -144,7 +151,9 @@ info@rr-solutions.us</a>
 <p class="jss100 jss108 jss325">xxxxxxxx, xx xxxxxx</p>
 </a>
 </div>
-
+<div class="logo">
+<img src="/Images/Logo.png" alt="logo">
+</div>
 
 
     

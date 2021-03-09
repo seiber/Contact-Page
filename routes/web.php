@@ -17,10 +17,12 @@ use App\Http\Controllers\PagesController;
 //     return view('welcome');
 // });
 
-
+//index
 Route::get('/', [PagesController::class, 'index']);
-Route::get('/contact', [PagesController::class, 'contact']);
 
+//contact page
+Route::get('/contact', [PagesController::class, 'contact']);
+Route::post('/contact', [PagesController::class, 'store']);
 // Route::get('/contact', function () 
 // {
 //     return view('pages.contact');
