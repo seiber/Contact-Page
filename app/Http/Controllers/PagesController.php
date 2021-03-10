@@ -25,7 +25,7 @@ class PagesController extends Controller
         $data = request()->validate([
       
             'name' => 'required',
-            'number' => 'required',
+            'number' => '',
             'email' => 'required|email',
             'message' => 'required',
         ]);

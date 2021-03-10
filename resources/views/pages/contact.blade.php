@@ -23,7 +23,8 @@
                 <span class="material-icons jss310" aria-hidden="true" style="color:  #cc9433 ;">person</span>
             </div>
             <input aria-invalid="false" class="jss296 jss281 jss301 jss284" name="name" 
-            placeholder="Your name" type="text"autocomplete="name" value="">
+            placeholder="Your name" type="name"autocomplete="name" value=""> 
+                <div>{{$errors->first('name')}}</div>
             </div>
         </div>
 
@@ -38,7 +39,7 @@
             <span class="material-icons jss310" aria-hidden="true" style="color:#cc9433 ;">local_phone</span>
         </div>
         <input aria-invalid="false" class="jss296 jss281 jss301 jss284" name="number" 
-        placeholder="Phone number" type="text" value="">
+        placeholder="Phone number" type="" value="">
         </div>
     </div>
 
@@ -53,8 +54,8 @@
         <span class="material-icons jss310" aria-hidden="true" style="color:  #cc9433 ;">email</span>
     </div>
     <input aria-invalid="false" class="jss296 jss281 jss301 jss284" name="email" autocomplete="email"
-    placeholder="Email address" type="email" value="">
-
+    placeholder="Email address" type="" value="">
+    <div>{{$errors->first('email')}}</div>
     </div>
 </div>
 </div>
@@ -74,9 +75,9 @@ tabindex="-1"></textarea>
 <textarea aria-hidden="true" class="jss320 jss321" readonly="" rows="2" 
 tabindex="-1"></textarea>
 <textarea class="jss320 jss296 jss281 jss298 jss283 jss301 jss284" rows ="2"
-style="height: 38px;" aria-invalid="false" name="message" placeholder="Your message
+style="height: 38px;" aria-invalid="false" name="message" type="" placeholder="Your message
 here..."></textarea>
-
+<div>{{$errors->first('message')}}</div>
         </div>
     </div>
 </div>
@@ -131,11 +132,11 @@ here..."></textarea>
 <p class="jss100 jss108 jss324">Contact</p>
 <p class="jss100 jss108 jss325">
 P:
-<a href="tel:18883353017" style="text-decoration: none; color: black;">(xxx) xxx-xxxx</a>
+<a href="" style="text-decoration: none; color: black;">(xxx) xxx-xxxx</a>
 </p>
 <p class="jss100 jss108 jss325">
 P: 
-<a href="tel:14797877005" style="text-decoration: none; color: black;">(xxx) xxx-xxxx</a>
+<a href="" style="text-decoration: none; color: black;">(xxx) xxx-xxxx</a>
 </p>
 <p class="jss100 jss108 jss325">
 E: 
@@ -145,7 +146,7 @@ info@rr-solutions.us</a>
 </div>
 <div class="jss137 jss170 jss184 jss194 jss208">
 <p class="jss100 jss108 jss324">Office</p>
-<a target="_blank" href="https://www.google.com/maps/place/601+1st+Ave+NW,+Gravette,+AR+72736/@36.4261087,-94.4562589,17z/data=!3m1!4b1!4m5!3m4!1s0x87c9a96ed2c4bb7d:0xf3e1f5907eec67ca!8m2!3d36.4261087!4d-94.4540702" style="text-decoration: none; color: black;">
+<a target="_blank" href="">
 <p class="jss100 jss108 jss325">R&R Solutions</p>
 <p class="jss100 jss108 jss325">xxx xxx. xxx. xx</p>
 <p class="jss100 jss108 jss325">xxxxxxxx, xx xxxxxx</p>
