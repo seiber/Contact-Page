@@ -4,7 +4,7 @@
 <Section class ="first-section">
 <div class="background">
     <div class="header"><h3> {{$title}}</h3></div>
-    <div class="summary"><h3>Contact us today to learn more about what R&R Solutions offers as your Technology Partner </h3></div> 
+    <div class="summary"><h3>Contact us today to learn more about what we can offer! </h3></div> 
 
     <div class="contact-form">
     <div class="jss136">
@@ -140,20 +140,20 @@ P:
 </p>
 <p class="jss100 jss108 jss325">
 E: 
-<a href="mailto:info@rr-solutions.us" style="text-decoration: none; color: black;">
-info@rr-solutions.us</a>
+<a href="mailto:testemail@gmail.com" style="text-decoration: none; color: black;">
+    testemail@gmail.com</a>
 </p>
 </div>
 <div class="jss137 jss170 jss184 jss194 jss208">
 <p class="jss100 jss108 jss324">Office</p>
 <a target="_blank" href="">
-<p class="jss100 jss108 jss325">R&R Solutions</p>
+<p class="jss100 jss108 jss325">Testing</p>
 <p class="jss100 jss108 jss325">xxx xxx. xxx. xx</p>
 <p class="jss100 jss108 jss325">xxxxxxxx, xx xxxxxx</p>
 </a>
 </div>
 <div class="logo">
-<img src="/Images/Logo.png" alt="logo">
+<img src="/Images/Logo.png" alt="Logo">
 </div>
 
 
@@ -167,15 +167,15 @@ info@rr-solutions.us</a>
         <div class="footer">
             © 
             2021 
-            R&R Packaging, Inc. dba R&R Solutions
-        <a target="_blank" href="https://www.facebook.com/R-R-Solutions-1871802532855016/"> 
+            Test packaging, Inc. 
+        <a target="_blank" href=""> 
             <img src= "/Images/Facebook.png" alt ="FB">
         </a>
-        <a target="_blank" href="https://www.linkedin.com/company/r&r-solutions"> 
+        <a target="_blank" href=""> 
             <img src= "/Images/Linkedin.png" alt ="Linkedin">
         </a>
        
-        <a target="_blank" href="https://vimeo.com/rrsolutions"> 
+        <a target="_blank" href=""> 
             <img src= "/Images/Vimeo.png" alt ="Vimeo">
         </a>  
         </div>
